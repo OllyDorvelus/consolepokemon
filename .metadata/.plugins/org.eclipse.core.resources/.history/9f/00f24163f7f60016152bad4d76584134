@@ -1,0 +1,14 @@
+package consolepokemon;
+
+public class Attacks extends Types {
+	
+	String name;
+	double damage;
+	types type;
+	
+	public Attacks(String name, double damage, types type) {
+		this.name = name;
+		this.damage = damage;
+		this.type = type;
+	}
+}

@@ -1,0 +1,7 @@
+package consolepokemon;
+
+public class Types {
+	public enum types {
+		
+	}
+}

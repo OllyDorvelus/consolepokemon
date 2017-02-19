@@ -1,0 +1,8 @@
+package consolepokemon;
+
+public class Attacks {
+	
+	protected enum attacks {
+		
+	}
+}

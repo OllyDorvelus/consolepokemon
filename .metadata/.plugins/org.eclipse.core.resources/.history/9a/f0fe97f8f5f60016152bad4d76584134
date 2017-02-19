@@ -1,0 +1,11 @@
+package consolepokemon;
+
+public class Pokemon extends Types {
+	
+	String name;
+	
+	
+	public Pokemon(String name) {
+		this.name = name;
+	}
+}
