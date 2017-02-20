@@ -4,24 +4,22 @@ public class Pokemon extends Types {
 	
 	String name;
 	types type;
-	int hp;
 	public Pokemon(String name) {
 		this.name = name;
 		
 	}
 	
-	public Pokemon(String name, types type, int hp) {
+	public Pokemon(String name, types type) {
 		this.name = name;
 		this.type = type;
-		this.hp = hp;
 	}
 	
 	public void printInfo() {
-		System.out.println(name + " " + type + " " + hp);
+		System.out.println(name + " " + type);
 	}
 	
 	public static void main(String args[]) {
-		Pokemon Pikachu = new Pokemon("Pikachu", types.WATER, 100);
+		Pokemon Pikachu = new Pokemon("Pikachu", types.WATER);
 		Pikachu.printInfo();
 		
 	}

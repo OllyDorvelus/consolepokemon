@@ -17,7 +17,7 @@ public class Pokemon extends Types {
 	}
 	
 	public void printInfo() {
-		System.out.println(name + " " + type + " " + hp);
+		System.out.println(name + " " + type);
 	}
 	
 	public static void main(String args[]) {
